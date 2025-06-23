@@ -5,9 +5,9 @@ import { Play, ArrowRight, Star } from "lucide-react";
 
 export const Hero = () => {
   return (
-    <section className="bg-gradient-to-br from-blue-50 to-white py-8 sm:py-12 lg:py-20 relative overflow-hidden">
+    <section className="bg-white md:bg-gradient-to-br md:from-blue-50 md:to-white py-8 sm:py-12 lg:py-20 relative overflow-hidden">
       {/* Custom background elements */}
-      <div className="absolute inset-0 overflow-hidden">
+      <div className="absolute inset-0 overflow-hidden hidden md:block">
         <div className="absolute -top-40 -right-40 w-80 h-80 bg-[#007379] rounded-full opacity-20"></div>
         <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-[#007478] rounded-full opacity-25"></div>
         <div className="absolute top-20 right-20 w-32 h-32 bg-[#007379] rounded-full opacity-40"></div>
@@ -26,7 +26,7 @@ export const Hero = () => {
               </div>
               <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold text-gray-900 leading-tight">
                 Let the Quran
-                <span className="text-[#007478]">
+                <span className="text-teal-700">
                   {" "}Talk to You
                 </span>
               </h1>
