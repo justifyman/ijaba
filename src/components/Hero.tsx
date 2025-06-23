@@ -26,7 +26,7 @@ export const Hero = () => {
               </div>
               <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold text-gray-900 leading-tight">
                 Let the Quran
-                <span className="text-[#007478] bg-clip-text text-transparent">
+                <span className="text-[#007478]">
                   {" "}Talk to You
                 </span>
               </h1>
