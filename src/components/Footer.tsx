@@ -1,5 +1,7 @@
 
 import { BookOpen, Facebook, Twitter, Instagram, Youtube, Mail, MapPin, Phone } from "lucide-react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTiktok } from '@fortawesome/free-brands-svg-icons';
 
 export const Footer = () => {
   return (
@@ -21,6 +23,9 @@ export const Footer = () => {
               </a>
               <a href="https://www.instagram.com/ijabatheapp/" target="_blank">
               <Instagram className="w-5 h-5 text-gray-400 hover:text-blue-400 cursor-pointer transition-colors" />
+              </a>
+              <a href="https://www.tiktok.com/@ijabatheapp" target="_blank">
+                <FontAwesomeIcon icon={faTiktok} className="w-5 h-5 text-gray-400 hover:text-blue-400 cursor-pointer transition-colors" />
               </a>
             </div>
           </div>

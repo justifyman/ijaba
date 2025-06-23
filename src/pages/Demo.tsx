@@ -19,10 +19,24 @@ export const Demo = () => {
         </div>
         <h1 className="text-4xl font-bold text-gray-900 text-center mb-4">Demo Video</h1>
         <div className="prose prose-lg text-gray-700 max-w-none">
-          <div className="aspect-video bg-black rounded-lg overflow-hidden">
+          <div className="rounded-lg">
+            <video 
+              src="/images/0623.mp4"
+              controls
+              preload="metadata"
+              playsInline
+              className="w-full"
+              poster="/images/app-demo.jpg"
+            />
+          </div>
+        </div>
+        <div className="prose prose-lg text-gray-700 max-w-none">
+          <div className="bg-black rounded-lg">
             <video 
               src="/images/app-demo.mov"
               controls
+              preload="metadata"
+              playsInline
               className="w-full"
               poster="/images/app-demo.jpg"
             />

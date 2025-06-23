@@ -16,16 +16,16 @@ export const Header = () => {
             <img 
               src="/images/logo.png" 
               alt="Ijaba Logo" 
-              className="h-20 w-auto"
+              className="h-12 w-auto sm:h-16 md:h-20"
             />
           </div>
           </a>
 
           {/* Desktop CTA */}
-          <div className="hidden md:flex items-center space-x-4">
+          <div className="hidden md:flex items-center space-x-3 sm:space-x-4">
           <a href="/privacy" className="text-gray-600 hover:text-blue-600 transition-colors">Privacy Policy</a>
           <a href="https://apps.apple.com/de/app/ijaba-talk-to-the-quran/id6743807203?l=en-GB">
-            <Button className="bg-blue-600 hover:bg-blue-700 text-white">
+            <Button className="bg-[#007478] hover:bg-[#007365] text-white">
               Download
             </Button>
             </a>
